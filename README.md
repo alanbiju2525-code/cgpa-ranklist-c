@@ -40,7 +40,7 @@ C program to calculate **CGPA** and generate a **rank list** for students based 
 
 ## Sample Input
 
-``
+```
 Total subjects: 3
 
 Subject 1: Mathematics
