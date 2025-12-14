@@ -36,7 +36,7 @@ C program to calculate **CGPA** and generate a **rank list** for students based 
 5. Students are sorted based on CGPA
 6. Rank list is displayed
 
----
+--
 
 ## Sample Input
 
