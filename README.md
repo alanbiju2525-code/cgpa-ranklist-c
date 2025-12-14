@@ -1,6 +1,6 @@
 # CGPA Rank List System in C
 
-A simple console-based C program to calculate **CGPA** and generate a **rank list** for students based on subject credits and marks.
+C program to calculate **CGPA** and generate a **rank list** for students based on subject credits and marks.
 
 ---
 
@@ -15,7 +15,7 @@ A simple console-based C program to calculate **CGPA** and generate a **rank lis
 
 ## Concepts Used
 
-* Structures (`struct`)
+* Structures
 * Functions
 * Arrays
 * Loops and conditional statements
@@ -75,6 +75,4 @@ Rank        Name            CGPA
 1           John            9.10
 2           Alan            8.60
 
-
-* Student C programming project
 
