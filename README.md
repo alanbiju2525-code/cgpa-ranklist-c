@@ -55,14 +55,14 @@ Total no of students : 2
 
 Enter the detailes of a student
 Student 1
-Name : Alice
+Name : Alan
 Enter the mark of student(out of 100)
 Math : 90
 Physics : 85
 Chemistry : 80
 
 Student 2
-Name : Bob
+Name : Akhil
 Enter the mark of student(out of 100)
 Math : 75
 Physics : 60
@@ -75,9 +75,9 @@ Chemistry : 70
 
 ```
 Rank List
-Rank        Name            CGPA
-1           Alice           8.80
-2           Bob             7.10
+Rank        Name           CGPA
+1           Alan           8.80
+2           Akhil          7.10
 ```
 
 
