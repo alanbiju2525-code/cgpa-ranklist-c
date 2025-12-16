@@ -43,26 +43,30 @@ C program to calculate **CGPA** and generate a **rank list** for students based 
 ```
 Total subjects: 3
 
-Subject 1: Mathematics
-Credits: 4
-Subject 2: Physics
-Credits: 3
-Subject 3: Chemistry
-Credits: 3
+Enter the Detailes of Each subjects
+Subject 1 : Math
+Credits : 4
+Subject 2 : Physics
+Credits : 3
+Subject 3 : Chemistry
+Credits : 3
 
-Total no of students: 2
+Total no of students : 2
 
+Enter the detailes of a student
 Student 1
-Name: Alan
-Mathematics: 85
-Physics: 78
-Chemistry: 90
+Name : Alice
+Enter the mark of student(out of 100)
+Math : 90
+Physics : 85
+Chemistry : 80
 
 Student 2
-Name: John
-Mathematics: 92
-Physics: 88
-Chemistry: 80
+Name : Bob
+Enter the mark of student(out of 100)
+Math : 75
+Physics : 60
+Chemistry : 70
 ```
 
 ---
@@ -72,7 +76,8 @@ Chemistry: 80
 ```
 Rank List
 Rank        Name            CGPA
-1           John            9.10
-2           Alan            8.60
+1           Alice           8.80
+2           Bob             7.10
+```
 
 
