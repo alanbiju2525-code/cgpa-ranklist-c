@@ -48,11 +48,21 @@ void student_detailes(int x,struct student s[],struct subjects sub[],int n){
         total = 0;
     
         for(j=0;j<n;j++){
-            if(s[i].marks[j] == 100)
+            if(s[i].marks[j] >= 95)
             grade = 10;
-            else
-            grade = (s[i].marks[j] / 10) + 1;
-
+            else if(s[i].marks[j] >= 85 && s[i].marks[j] < 95)
+            grade = 9;
+            else if(s[i].marks[j] >= 75 && s[i].marks[j] < 85)
+            grade = 8;
+            else if(s[i].marks[j] >= 65 && s[i].marks[j] < 75)
+            grade = 7;
+            else if(s[i].marks[j] >= 55 && s[i].marks[j] < 65)
+            grade = 6;
+            else if(s[i].marks[j] >= 45 && s[i].marks[j] < 55)
+            grade = 5;
+            else if(s[i].marks[j] >= 40 && s[i].marks[j] < 45)
+            grade = 4;
+           
             total += grade*sub[j].credits;
             ctotal += sub[j].credits;
         }
@@ -77,18 +87,14 @@ void ranklist(int x, struct student s[]){
     int i;
     printf("\nRank List");
     printf("\nRank\t\tName\t\tCGPA\n");
-
-
+    
     for(i=0;i<x;i++){
         printf("%d\t\t",i+1);
         printf("%-15s\t",s[i].name);
         printf("%0.2f",s[i].cgpa);
         printf("\n");
-
     }
 }
-
-
 
 int main(){
     int i,j,k,n,x;
